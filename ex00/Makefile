@@ -4,7 +4,7 @@ FLAGS = -Wall -Wextra -Werror -std=c++98
 
 CC = c++
 
-SRCS = main.cpp Contact.cpp PhoneBook.cpp
+SRCS = main.cpp Zombie.cpp
 
 $(NAME) : $(SRCS)
 	$(CC) $(FLAGS) $(SRCS) -o $(NAME)
