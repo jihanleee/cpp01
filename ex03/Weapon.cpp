@@ -1,6 +1,18 @@
-#include <string>
-#include <iostream>
+# include <string>
+# include <iostream>
+# include "Weapon.hpp"
 
-class Zombie {
+Weapon::Weapon(){
+}
 
-};
+Weapon::Weapon(std::string type) {
+	_type = type;
+}
+
+std::string Weapon::getType() {
+	return (_type);
+}
+
+void Weapon::setType(std::string type) {
+	_type = type;
+}
