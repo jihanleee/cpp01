@@ -5,12 +5,12 @@
 # include "Weapon.hpp"
 
 class HumanA {
-	private:
-		std::string _name;
-		Weapon *_weapon;
 	public:
 		HumanA(std::string string, Weapon &weapon);
 		void attack();
+	private:
+		std::string _name;
+		Weapon &_weapon;
 };
 
 #endif

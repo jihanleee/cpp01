@@ -16,6 +16,7 @@ int main()
 		HumanB jim("Jim");
 		jim.setWeapon(club);
 		jim.attack();
+		jim.setWeapon(club);
 		club.setType("some other type of club");
 		jim.attack();
 	}
